@@ -1659,3 +1659,10 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		/* CSS to apply margin only on mobile devices */
+@media (max-width: 768px) {
+    .mobile-margin {
+        margin-top: 5px; /* Adjusts the distance between buttons */
+    }
+}
